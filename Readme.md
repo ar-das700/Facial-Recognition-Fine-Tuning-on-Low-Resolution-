@@ -7,7 +7,7 @@ Designed specifically for the **Jezt Technologies AI Developer Intern Evaluation
 
 ---
 
-## 🏗️ Architectural Philosophy
+##  Architectural Philosophy
 
 This pipeline was built adhering to production-grade machine learning principles:
 1. **Separation of Concerns:** Data extraction, augmentation, training, and evaluation are strictly compartmentalized into independent modules.
@@ -39,7 +39,7 @@ jezt_vision_pipeline/
 └── README.md                   # Project documentation
 
 
-# 🚀 Execution Pipeline
+#  Execution Pipeline
 
 To reproduce the results, ensure you are in an isolated virtual environment and follow the steps below in strict order.
 
@@ -48,17 +48,17 @@ To reproduce the results, ensure you are in an isolated virtual environment and 
 ## ⚙️ Environment Setup
 
 ```bash
-python -m venv env
+python -m venv jezt_env
 ```
 
 ### Activate Environment
 
 ```bash
 # Linux / Mac
-source env/bin/activate
+source jezt_env/bin/activate
 
 # Windows
-env\Scripts\activate
+jezt_env\Scripts\activate
 ```
 
 ### Install Dependencies
